@@ -148,21 +148,20 @@ body {
   }
 }
 
-.photo-placeholder {
-  width: 300px;
-  height: 300px;
+.photo-card {
+  width: 150px;
+  height: 150px;
   border: 3px dashed #8338ec;
-  border-radius: 50%;
+  
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 20px;
   background: linear-gradient(45deg, #ffbe0b, #06ffa5);
-  color: #fff;
+
   font-size: 1.2rem;
   font-weight: bold;
   text-shadow: 2px 2px 4px #000;
-  animation: rotate 4s linear infinite;
 }
 
 @keyframes rotate {
